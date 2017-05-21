@@ -1,0 +1,24 @@
+{% load i18n %}
+
+<section class="lot-detail-request-agency-documents">
+    <h3>{% trans "Request Agency Documents" %}</h3>
+    <div class="lot-detail-request-agency-documents-content">
+      <a href="mailto:foil@agency.com?
+      bcc=foil@nycommons.org
+      &subject=Foil Request
+      &body=Dear FOIL Officer%2C
+      %0D%0A%0D%0A
+      Please treat this request for all documents in your Agency’s possession related to {{ lot.borough }}
+      Block {{ lot.block }} Lot {{ lot.lot_number }} as a request under the New York State Freedom of Information Law.
+      %0D%0A%0D%0A
+      Please send electronic copies of all documents to this email address.
+      %0D%0A%0D%0A
+      I look forward to hearing from you within five days as required by law.
+      %0D%0A%0D%0A
+      Best%2C
+      %0D%0A%0D%0A
+      ADD YOUR NAME HERE. YOU CAN ALSO ADD MORE DETAILS ABOUT THE DOCUMENTS YOU
+      ARE LOOKING FOR TO THE LETTER ABOVE. REMEMBER TO DELETE THIS LINE BEFORE YOU
+      SEND!">Mail</a>
+    </div>
+</section>
