@@ -12,7 +12,7 @@
 # Database (required)
 export NYCOMMONS_DB_NAME='nycommons'
 export NYCOMMONS_DB_USER='nycommons'
-export NYCOMMONS_DB_PASSWORD=''
+export NYCOMMONS_DB_PASSWORD='nycommons'
 export NYCOMMONS_DB_HOST='localhost'
 export NYCOMMONS_DB_PORT=''
 

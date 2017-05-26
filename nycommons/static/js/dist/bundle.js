@@ -2525,8 +2525,6 @@ $(document).ready(function () {
 // Scripts that only run on the lot detail page.
 //
 
-alert("a");
-
 var L = require('leaflet');
 
 require('leaflet-dataoptions');
